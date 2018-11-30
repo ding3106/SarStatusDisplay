@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tv_switch_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Earpiece:"/>
+    <Switch
+        android:id="@+id/switch_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="20dp"
+        android:showText="true"
+        android:textOn="on"
+        android:textOff="off"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        android:layout_margin="2dp"/>
+
+</LinearLayout>

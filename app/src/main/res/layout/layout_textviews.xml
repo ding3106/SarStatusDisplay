@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_ChargerConnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ChargerConnected:"/>
+
+    <TextView
+        android:id="@+id/tv_EarPiece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="EarPiece:"/>
+
+    <TextView
+        android:id="@+id/tv_VoiceCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="VoiceCall:"/>
+
+    <TextView
+        android:id="@+id/tv_DataCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="DataCall:"/>
+
+    <TextView
+        android:id="@+id/tv_Connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Connection:"/>
+
+    <TextView
+        android:id="@+id/tv_Wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Wifi:"/>
+
+    <TextView
+        android:id="@+id/tv_MiFi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="MiFi:"/>
+
+    <TextView
+        android:id="@+id/tv_WiFiDirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="WiFiDirect:"/>
+
+    <TextView
+        android:id="@+id/tv_AirPlaneMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="AirPlaneMode:"/>
+
+    <TextView
+        android:id="@+id/tv_RfCable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RfCable:"/>
+
+    <TextView
+        android:id="@+id/tv_OB5State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="OB5State:"/>
+
+    <TextView
+        android:id="@+id/tv_TX0State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="TX0State:"/>
+
+    <TextView
+        android:id="@+id/tv_SarState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="SarState:"/>
+
+    <TextView
+        android:id="@+id/tv_WifiCutbackUsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="WifiCutbackUsed:"/>
+
+    <TextView
+        android:id="@+id/tv_SensorState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="SensorState[]:"/>
+
+</LinearLayout>
